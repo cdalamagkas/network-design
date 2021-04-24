@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}RouterOS}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Διεπαφή Χρήστη}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Μέθοδοι πρόσβασης στο CLI}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Αποθήκευση, ανάκτηση και επαναφορά ρυθμίσεων}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Απαρίθμηση διεπαφών}{5}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Περιήγηση στο CLI του RouterOS}{5}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Λειτουργίες βοήθειας του RouterOS και διευκόλυνση πρόσβασης}{5}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Ονόματα και αριθμοί αντικειμένων}{6}{subsection.1.7}
+\contentsline {section}{\numberline {2}Βασικές εντολές του RouterOS}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Αλλαγή hostname}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Προβολή πληροφοριών}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Παραμετροποίηση διεπαφών}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Γενικές εντολές}{10}{subsection.2.4}

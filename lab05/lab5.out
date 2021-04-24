@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Θεωρητικό υπόβαθρο}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Κατηγοριοποίηση πρωτοκόλλων δυναμικής δρομολόγησης}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Το πρωτόκολλο RIP}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Μηχανισμός προώθησης πακέτων}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Προετοιμασία δικτύου}{}% 5
+\BOOKMARK [1][-]{section.3}{Σενάριο: Πρόσβαση στο «Διαδίκτυο»}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Παραμετροποίηση RIPv2 στον R1}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Παραμετροποίηση RIPv2 στον R2}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Παραμετροποίηση RIPv2 στον R3}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Δοκιμές συνδεσιμότητας}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Σενάριο: Επεκτασιμότητα ενός δυναμικού δικτύου}{}% 11
+\BOOKMARK [1][-]{section.5}{Αντιμετώπιση προβλημάτων με το RIP}{}% 12

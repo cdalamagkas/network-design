@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Υλοποίηση τοπολογίας}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Αναλυτική σχεδίαση τοπολογίας}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Σύνδεση των συσκευών με καλώδια RJ-45}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Παραμετροποίηση μεταγωγέων}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Παραμετροποίηση υπολογιστών}{5}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Δοκιμές συνδεσιμότητας}{5}{subsection.1.5}
+\contentsline {section}{\numberline {2}Ρυθμίσεις θυρών μεταγωγέα και σφάλματα}{5}{section.2}
+\contentsline {section}{\numberline {3}Ο πίνακας MAC}{7}{section.3}
+\contentsline {section}{\numberline {4}Ασφάλεια θυρών}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Βασικές ρυθμίσεις ασφαλούς λειτουργίας θυρών}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Στατική ρύθμιση}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Κολλώδης διεύθυνση (Sticky)}{10}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Aging και Violation}{11}{subsection.4.4}
+\contentsline {section}{\numberline {5}Άσκηση}{12}{section.5}

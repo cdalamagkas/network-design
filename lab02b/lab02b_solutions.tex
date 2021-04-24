@@ -1,0 +1,101 @@
+%Compile using xelatex
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{xltxtra,xgreek,fontspec} 
+\usepackage{color}
+\setmainfont{FreeSerif} % main font
+\usepackage{setspace}
+\usepackage[export]{adjustbox}[2011/08/13]
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage[textwidth=20cm, textheight=25cm]{geometry}
+\usepackage[greek]{datetime2}
+\usepackage{caption}
+\captionsetup[figure]{name=Εικόνα, labelfont=it} % custom name for image description 
+\usepackage{float}
+\usepackage{fancybox}
+\usepackage{hyperref} % link customization
+\hypersetup{
+	colorlinks,
+	linkcolor=black,
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\newcommand*\keystroke[1]{%
+	\tikz[baseline=(key.base)]
+	\node[%
+	draw,
+	fill=white,
+	drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+	rectangle,
+	rounded corners=2pt,
+	inner sep=2pt,
+	line width=0.5pt,
+	font=\scriptsize\ttfamily
+	](key) {#1\strut}
+	;
+}
+
+\newfontfamily\myfont{GFS Didot} %custom font for university and dept. name
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\rhead{\footnotesize Lab 02} % right header
+%\lhead{\footnotesize Λύσεις} %left header
+%%\chead{\includegraphics[scale=0.25]{C:/uowm.png}}
+%\cfoot{\noindent\makebox[\linewidth]{\rule{0.75cm}{0.4pt}}\\\thepage} %custom page number format
+\graphicspath{{./images/}}
+
+\usepackage[flushmargin, hang, bottom]{footmisc}
+\addtolength{\footnotesep}{2.5mm} % change to 1mm
+
+\usepackage{infobox}
+
+\begin{document}
+	
+\noindent\textbf{\Large Λύσεις εργαστηρίου 2b\\
+«Διευθέτηση μεταγωγέα»}
+
+\hrulefill
+
+
+\subsection*{Παραμετροποίηση δρομολογητή}
+\begin{tabular}{m{12cm}m{7cm}}
+	\texttt{Router> enable} & Ενεργοποίση προνομιακής κατάστασης\\[0.25cm]
+	\texttt{Router\# conf term} & Ενεργοποίηση κατάστασης ρυθμίσεων μέσω τερματικού\\[0.25cm]
+	\texttt{Router(conf)\# interface GigabitEthernet0/1} & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE0/1}\\[0.25cm]
+	\texttt{Router(conf-if)\# ip address 192.168.1.1 255.255.255.0} & Ανάθεση της IP \texttt{192.168.1.1} και μάσκας \texttt{/24} στην συγκεκριμένη διεπαφή\\[0.25cm]
+	\texttt{Router(conf-if)\# no shutdown} & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	\texttt{Router(conf-if)\# exit} & Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+\end{tabular}
+
+\subsection*{Παραμετροποίηση μεταγωγέα}
+\begin{tabular}{m{9cm}m{10cm}}
+	\texttt{Switch> enable} &Ενεργοποίση προνομιακής κατάστασης \\[0.25cm]
+	\texttt{Switch\# conf term} & Ενεργοποίηση κατάστασης ρυθμίσεων μέσω τερματικού\\[0.25cm]
+	\texttt{Switch(conf)\# interface interface Gi1/0/1} & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE1/0/1}\\[0.25cm]
+	\texttt{Switch(conf-if)\# no shutdown} & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	\texttt{Switch(conf-if)\# exit} &Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	\texttt{Switch(conf)\# interface Gi1/0/2} & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE1/0/2} \\[0.25cm]
+	\texttt{Switch(conf-if)\# no shutdown} & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	\texttt{Switch(conf-if)\# exit} & Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	\texttt{Switch(conf)\# interface Gi1/0/4} & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE1/0/4} \\[0.25cm]
+	\texttt{Switch(conf-if)\# no shutdown} & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	\texttt{Switch(conf-if)\# exit} &Έ ξοδος από την κατάσταση ρυθμίσεων της διεπαφής
+\end{tabular}
+
+\subsection*{Άσκηση}
+\begin{tabular}{m{12cm}m{7cm}}
+	\texttt{Switch> enable} &Ενεργοποίση προνομιακής κατάστασης \\[0.25cm]
+	\texttt{Switch\# conf term} & Ενεργοποίηση κατάστασης ρυθμίσεων μέσω τερματικού\\[0.25cm]
+	\texttt{Switch(conf)\# interface Gi1/0/2} & Εισέλθετε στην κατάσταση ρυθμίσεων της διεπαφής \texttt{GigabitEthernet1/0/1}\\[0.125cm]
+	\texttt{Switch(conf-if)\# switchport mode access} & Ορίστε την κατάσταση λειτουργίας της διεπαφής σε access.\\[0.25cm]
+	\texttt{Switch(conf-if)\# switchport port-security} & Ενεργοποιείστε την ασφάλεια θύρας.\\[0.25cm]
+	\texttt{Switch(conf-if)\# switchport port-security mac-address ΧΧΧΧ.ΧΧΧΧ.ΧΧΧΧ} & Ορίστε την διεύθυνση MAC του PC2 ως την μοναδική διεύθυνση MAC που επιτρέπεται να συνδεθεί στην διεπαφή.\\[0.25cm]
+	\texttt{Switch(conf-if)\# switchport port-security violation restrict} & H παραβίαση του κανόνα θα οδηγήσει σε παρεμπόδιση μετάδοσης δεδομένων για την συγκεκριμένη διεπαφή.\\[0.25cm]
+	\texttt{Switch(conf-if)\# exit} &Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής
+\end{tabular}
+
+\end{document}

@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Θεωρητικό υπόβαθρο}{2}{section.1}% 
+\contentsline {section}{\numberline {2}Υλοποίηση τοπολογίας}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Αναλυτική σχεδίαση τοπολογίας}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Καλωδίωση δικτύου}{5}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Παραμετροποίηση μεταγωγέα}{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Διευθυνσιοδότηση δρομολογητή/υπολογιστών}{6}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Δοκιμές συνδεσιμότητας}{6}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Ρυθμίσεις θυρών μεταγωγέα και σφάλματα}{6}{section.3}% 
+\contentsline {section}{\numberline {4}Ο πίνακας MAC}{8}{section.4}% 
+\contentsline {section}{\numberline {5}Ασφάλεια θυρών}{9}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Βασικές ρυθμίσεις ασφαλούς λειτουργίας θυρών}{10}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Στατική ρύθμιση}{11}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Κολλώδης διεύθυνση (Sticky)}{11}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.4}Λήξη και Κατάσταση παραβίασης}{12}{subsection.5.4}% 
+\contentsline {section}{\numberline {6}Σενάριο: Κολλώδεις διευθύνσεις MAC}{14}{section.6}% 

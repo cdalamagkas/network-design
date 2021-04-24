@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Οδηγίες εγκατάστασης}{1}{section.1}
+\contentsline {section}{\numberline {2}Επιλογές κλάσης}{2}{section.2}
+\contentsline {section}{\numberline {3}Οδηγός εκκίνησης}{2}{section.3}
+\contentsline {section}{\numberline {4}Παραμετροποιήσεις της κλάσης}{2}{section.4}
+\contentsline {section}{\numberline {5}Νέες εντολές}{2}{section.5}

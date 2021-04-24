@@ -1,0 +1,45 @@
+%!TEX TS-program = xelatex
+\documentclass{EdipyLabsSolutions}
+
+\begin{document}
+	
+\noindent\textbf{\Large Λύσεις εργαστηρίου 2α: «Βασική Δικτυακή Τοπολογία»}
+\hrulefill
+
+\subsection*{Παραμετροποίηση Router1}
+
+\begin{tabular}{>{\ttfamily}m{12cm}m{7cm}}
+	Router>enable & Ενεργοποίση προνομιακής κατάστασης\\[0.25cm]
+	Router\# conf term & Ενεργοποίηση κατάστασης ρυθμίσεων μέσω τερματικού\\[0.25cm]
+	Router(conf)\# hostname Router1 & Μεταβολή του hostname της συσκευής σε \texttt{Router1}\\[0.25cm]
+	Router1(conf)\# interface GigabitEthernet0/0 & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE0/0}\\[0.25cm]
+	Router1(conf-if)\# ip address 192.168.10.1 255.255.255.0 & Ανάθεση της IP \texttt{192.168.10.1} και μάσκας \texttt{/24} στην συγκεκριμένη διεπαφή\\[0.25cm]
+	Router1(conf-if)\# no shutdown & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	Router1(conf-if)\# exit & Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	Router1(conf)\# interface GigabitEthernet0/1 & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE0/1} \\[0.25cm]
+	Router1(conf-if)\# ip address 172.16.0.1 255.255.255.0 & Ανάθεση της IP \texttt{172.16.0.1} και μάσκας \texttt{/24} στην συγκεκριμένη διεπαφή\\[0.25cm]
+	Router1(conf-if)\# no shutdown & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	Router1(conf-if)\# exit & Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	Router1(conf)\# ip routing & Ενεργοποίηση του ip routing\\[0.25cm]
+	Router1(conf)\# ip route 0.0.0.0 0.0.0.0 172.16.0.2 & Ορισμός του \texttt{172.16.0.2} ως last resort default gateway
+\end{tabular}
+
+\subsection*{Παραμετροποίηση Router2}
+\begin{tabular}{>{\ttfamily}m{12cm}m{7cm}}
+	Router> enable &Ενεργοποίση προνομιακής κατάστασης \\[0.25cm]
+	\texttt{Router\# conf term} & Ενεργοποίηση κατάστασης ρυθμίσεων μέσω τερματικού\\[0.25cm]
+	Router(conf)\# hostname Router2 & Μεταβολή του hostname της συσκευής σε \texttt{Router2}\\[0.25cm]
+	Router2(conf)\# interface GigabitEthernet0/0 & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE0/0}\\[0.25cm]
+	Router2(conf-if)\# ip address 192.168.20.1 255.255.255.0 & Ανάθεση της IP \texttt{192.168.20.1} και μάσκας \texttt{/24} στην συγκεκριμένη διεπαφή\\[0.25cm]
+	Router2(conf-if)\# no shutdown & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	Router2(conf-if)\# exit &Έ ξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	Router2(conf)\# interface GigabitEthernet0/1 & Είσοδος σε κατάσταση ρυθμίσεων για την διεπαφή \texttt{GE0/1} \\[0.25cm]
+	Router2(conf-if)\# ip address 172.16.0.2 255.255.255.0 & Ανάθεση της IP \texttt{172.16.0.2} και μάσκας \texttt{/24} στην συγκεκριμένη διεπαφή\\[0.25cm]
+	Router2(conf-if)\# no shutdown & Ενεργοποίηση της διεπαφής\\[0.25cm]
+	Router2(conf-if)\# exit & Έξοδος από την κατάσταση ρυθμίσεων της διεπαφής\\[0.25cm]
+	Router2(conf)\# ip routing & Ενεργοποίηση του ip routing\\[0.25cm]
+	Router2(conf)\# ip route 0.0.0.0 0.0.0.0 172.16.0.1 &  Ορισμός του \texttt{172.16.1.1} ως last resort default gateway
+\end{tabular}
+
+
+\end{document}

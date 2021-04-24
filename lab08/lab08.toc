@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Θεωρητικό υπόβαθρο}{3}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}To πρωτόκολλο 802.1Q}{4}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Βασική παραμετροποίηση VLAN}{6}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}To πρωτόκολλο VTP}{9}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}To πρωτόκολλο DTP}{10}{subsection.1.4}% 
+\contentsline {section}{\numberline {2}Προετοιμασία δικτύου}{11}{section.2}% 
+\contentsline {section}{\numberline {3}Σενάριο: Δρομολόγηση μεταξύ VLAN}{12}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Δημιουργία και παραμετροποίηση των VLAN}{12}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Ανάθεση των θυρών σε VLAN}{12}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Ρύθμιση των συγκαναλώσεων}{13}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Ρύθμιση των SVI}{13}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}Ρύθμιση της δρομολόγησης μεταξύ των VLAN}{13}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.6}Δοκιμές συνδεσιμότητας}{14}{subsection.3.6}% 
+\contentsline {section}{\numberline {4}Σενάριο: Τα πρωτόκολλα VTP και DTP}{15}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Επαναφορά ρυθμίσεων}{15}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Ορισμός εξυπηρετητή VTP}{15}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Ορισμός πελάτη VTP}{16}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Ρύθμιση του DTP}{16}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Δημιουργία VLAN και ανάθεση θυρών}{17}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}Δοκιμές συνδεσιμότητας}{17}{subsection.4.6}% 

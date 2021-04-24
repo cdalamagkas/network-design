@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Internetwork Operating System (IOS)}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Διεπαφή Χρήστη}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Αρχιτεκτονική συσκευών Cisco}{4}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Αποθήκευση, ανάκτηση και επαναφορά ρυθμίσεων}{5}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Απαρίθμηση διεπαφών}{6}{subsection.1.4}% 
+\contentsline {section}{\numberline {2}Βασικές εντολές του Cisco IOS}{6}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Μέθοδοι πρόσβασης στο CLI}{6}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Λειτουργίες βοήθειας του IOS και διευκόλυνση πρόσβασης}{8}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Μετάβαση μεταξύ καταστάσεων λειτουργίας}{9}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Ασφαλίζοντας τις συσκευές Cisco}{10}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Παραμετροποίηση τερματικού}{11}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}Αλλαγή hostname}{12}{subsection.2.6}% 
+\contentsline {subsection}{\numberline {2.7}Διαχείριση συστήματος αρχείων}{12}{subsection.2.7}% 
+\contentsline {subsection}{\numberline {2.8}Προβολή πληροφοριών}{12}{subsection.2.8}% 
+\contentsline {subsection}{\numberline {2.9}Διασωλήνωση}{13}{subsection.2.9}% 
+\contentsline {subsection}{\numberline {2.10}MOTD banner}{13}{subsection.2.10}% 
+\contentsline {subsection}{\numberline {2.11}Εντολή no}{15}{subsection.2.11}% 

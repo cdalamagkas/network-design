@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Θεωρητικό υπόβαθρο}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Κατηγοριοποίηση πρωτοκόλλων δυναμικής δρομολόγησης}{3}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Το πρωτόκολλο RIP}{4}{subsection.1.2}% 
+\contentsline {section}{\numberline {2}Προετοιμασία δικτύου}{6}{section.2}% 
+\contentsline {section}{\numberline {3}Σενάριο: Πρόσβαση στο «Διαδίκτυο»}{7}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Παραμετροποίηση RIPv2 στον R1}{7}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Παραμετροποίηση RIPv2 στον R2}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Παραμετροποίηση RIPv2 στον R3}{9}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Δοκιμές συνδεσιμότητας}{9}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Σενάριο: Επεκτασιμότητα με το RIPv2}{11}{section.4}% 
+\contentsline {section}{\numberline {5}Αντιμετώπιση προβλημάτων με το RIP}{12}{section.5}% 
